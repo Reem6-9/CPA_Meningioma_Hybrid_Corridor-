@@ -16,3 +16,15 @@ AI framework for cerebellopontine angle (CPA) meningioma surgical corridor selec
 ```bash
 pip install -r requirements.txt
 python reproduce_results.py
+Models
+
+cpa_corridor_classifier.py: XGBoost classifier for corridor selection (SHAP=0.41 for vascular encasement)
+gnn_ionm_framework.py: Graph Neural Network with real-time IONM integration
+Citation
+bibtex@article{fatima2025cpa,
+  title={Dynamic surgical decision-making in resection of meningiomas of the cerebellopontine angle},
+  author={Fatima, Tahreem and Di Ieva, Antonio and others},
+  journal={Journal of Neurosurgery},
+  year={2025}
+}
+Note: This repository contains model implementations only. No patient data is included.
